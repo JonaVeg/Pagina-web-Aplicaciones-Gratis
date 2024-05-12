@@ -22,22 +22,28 @@
 <body>
 
     <style>
-
+/* Estilo para la imagen del logo en la barra de navegación */
 .navbar-logo {
-    max-width: 100px; 
-    height: auto; 
+    max-width: 100px;
+    height: auto;
 }
 
-
+/* Estilo para el texto Cinzel y centrado */
 .cinzel-text {
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 10rem; 
+    /* Tamaño de texto responsivo con Bootstrap */
+    font-size: 5rem; /* Tamaño inicial */
 }
 
-
+@media (max-width: 768px) {
+    /* Estilo para tamaño de texto responsivo en dispositivos medianos y pequeños */
+    .cinzel-text {
+        font-size: 2rem; /* Reducir el tamaño para pantallas más pequeñas */
+    }
+}
 
 
 /* Estilo para el contenedor principal */
