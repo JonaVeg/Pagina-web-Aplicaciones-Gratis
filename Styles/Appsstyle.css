@@ -1,0 +1,54 @@
+
+        /* Estilo para la imagen del logo en la barra de navegación */
+        .navbar-logo {
+            max-width: 100px;
+            height: auto;
+        }
+        
+        /* Estilo para el texto Cinzel y centrado */
+        .cinzel-text {
+            font-family: "Cinzel", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            /* Tamaño de texto responsivo con Bootstrap */
+            font-size: 5rem; /* Tamaño inicial */
+        }
+        
+        @media (max-width: 768px) {
+            /* Estilo para tamaño de texto responsivo en dispositivos medianos y pequeños */
+            .cinzel-text {
+                font-size: 2rem; /* Reducir el tamaño para pantallas más pequeñas */
+            }
+        }
+        
+        
+        /* Estilo para el contenedor principal */
+        .welcome-container {
+            padding: 20px;
+            background-color: #f8f9fa; /* Color de fondo */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+        }
+        
+        /* Estilo para el título principal */
+        .main-title {
+            font-size: 2.5rem;
+            color: #343a40; /* Color del texto */
+            margin-bottom: 20px;
+        }
+        
+        /* Estilo para el párrafo de texto */
+        .main-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #6c757d; /* Color del texto */
+        }
+        
+        /* Estilo para los elementos de lista */
+        .feature-list {
+            padding-left: 20px;
+            list-style: disc;
+        }
+        
+        

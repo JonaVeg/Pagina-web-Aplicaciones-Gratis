@@ -16,17 +16,210 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="Styles/Appsstyle.css">
     </head>
 
+    
+
     <body>
+
         <header>
-            <!-- place navbar here -->
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <img src="Imagenes/LOGO1-removebg-preview.png" alt="Logo" class="navbar-logo"> <!-- Clase agregada para controlar el tamaño -->
+                    <a class="navbar-brand" href="#">JVACCESOVIP</a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aplicaciones.html">APPS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="libros.html">Libros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
-        <main></main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <!-- Ajustar tamaño de la imagen -->
+                        <img src="Imagenes/Spotify_App_Logo.svg.png" alt="Spotify Logo" class="img-fluid" style="max-width: 200px;">
+                        <h5 class="card-title">Spotify</h5>
+                        <p class="card-text">Descarga la aplicación aquí:</p>
+                        <a href="https://www.mediafire.com/file/ofx8kze0sfrhnb6/Spotify.apk/file" class="btn btn-primary">Descargar Spotify</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <!-- Ajustar tamaño de la imagen -->
+                        <img src="Imagenes/TIDAL_Music_AB.png" alt="TIDAL Logo" class="img-fluid" style="max-width: 200px;">
+                        <h5 class="card-title">TIDAL</h5>
+                        <p class="card-text">Descarga la aplicación aquí:</p>
+                        <a href="#" class="btn btn-primary">Descargar TIDAL</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <!-- Ajustar tamaño de la imagen -->
+                        <img src="Imagenes/YT.png" alt="TIDAL Logo" class="img-fluid" style="max-width: 200px;">
+                        <h5 class="card-title">Youtube Premium</h5>
+                        <p class="card-text">Descarga la aplicación aquí:</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Descargar Youtube Premium</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ 
+        
+
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Youtube Premium</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2 class="fs-5">Descargar Youtube Premium</h2>
+                <a href="https://www.mediafire.com/file/s7kkl6awxzlrkzb/YouTube_Premium_v19.16.38_-_.com.apk/file" class="btn btn-primary">Descargar Youtube Premium</a>
+                <hr>
+                <h2 class="fs-5">Descargar Servicios Micro G</h2>
+                <a href="" class="btn btn-primary">Descargar Servicios Micro G</a>
+                <h5>En caso de que no puedas descargar los servicios de micro g</h5>
+                <img src="Imagenes/Git.jpeg" alt="" style="max-width: 200px;">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+       <!--Segunda seccion de aplicaiones -->
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+
+                <img src="Imagenes/Lark.png"  class="img-fluid" style="max-width: 200px;">
+                <h5 class="card-title">Lark Player</h5>
+                <p class="card-text">Descarga la aplicación aquí:</p>
+                <a href="https://www.mediafire.com/file/yv12uwsb8dtvq4d/LarkPlayer_Pro_v5.70.6_-_com.apk/file" class="btn btn-primary">Descargar Lark Player</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+
+                <img src="Imagenes/music.png" class="img-fluid" style="max-width: 200px;">
+                <h5 class="card-title">Youtube Music Premium</h5>
+                <p class="card-text">Descarga la aplicación aquí:</p>
+                <a href="https://www.mediafire.com/file/i2h90vx424k8355/YouTube_Music_Premium_v6.49.53_-_apk.com.apk/file" class="btn btn-primary">Descargar Youtube Music Premium</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+
+                <img src="Imagenes/inshot1.png"  class="img-fluid" style="max-width: 200px;">
+                <h5 class="card-title">Inshot</h5>
+                <p class="card-text">Descarga la aplicación aquí:</p>
+                <a href="https://www.mediafire.com/file/s7rmdjlufhs8n2i/InShot_Pro_v2.033.1446_-_espacioapk.com.apk/file" class="btn btn-primary">Descargar Inshot</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--Tercera seccion de aplicaiones -->
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+
+                <img src="Imagenes/photoshop.png"  class="img-fluid" style="max-width: 200px;">
+                <h5 class="card-title">Photoshop Premium</h5>
+                <p class="card-text">Descarga la aplicación aquí:</p>
+                <a href="https://www.mediafire.com/file/yzpbosj3ssfxft2/Adobe_Photoshop_Express_Premium_v13.5.410_-k.com.apk/file" class="btn btn-primary">Descargar Photoshop Premium</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+
+                <img src="Imagenes/tubi.png" class="img-fluid" style="max-width: 200px;">
+                <h5 class="card-title">Tubi</h5>
+                <p class="card-text">Descarga la aplicación aquí:</p>
+                <a href="https://www.mediafire.com/file/79ivum5e5lsw3lj/Tubi_v7.18.0_-_k.com.apk/file" class="btn btn-primary">Descargar Tubi</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body">
+
+                <img src="Imagenes/capcut.jpg"  class="img-fluid" style="max-width: 200px;">
+                <h5 class="card-title">Capcut</h5>
+                <p class="card-text">Descarga la aplicación aquí:</p>
+                <a href="https://www.mediafire.com/file/vjmw1o1ge2i5uvh/CapCut_Pro_v11.8.0_-_apk.com.apk/file" class="btn btn-primary">Descargar Capcut</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <br><br><br>
+    <br><br>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 Tu Aplicaciones Gratis- Todos los derechos</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="Imagenes/LOGO1.png" alt="LOGO" class="img-fluid" style="max-width: 200px;">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
